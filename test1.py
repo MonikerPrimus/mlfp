@@ -1,1 +1,1 @@
-print("hello min-jae")
+print(" min-jae, more like, min-bae")
