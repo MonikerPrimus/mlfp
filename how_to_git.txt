@@ -1,0 +1,8 @@
+
+git add *file name
+git commit -m "Comment"
+git push
+git checkout *branch name #Goes looks at other branches
+git branch Ethan
+git pull
+git status
