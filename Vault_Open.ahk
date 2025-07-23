@@ -15,7 +15,7 @@ Click 2620, 1190
 Sleep 100
 WinWait("Open folder as vault", "", 1, "", "")
 vault_folder := "C:\Users\mjkuo\Documents\MITES_Summer_ML\MLFP\Obsidian_Vaults\Healthcare_2024_Sub_Vaults\"
-vault_name := "abbvie_inc_"
+vault_name := "aesculap_biologics__llc"
 Sleep 500
 Send vault_folder . vault_name
 Sleep 500
