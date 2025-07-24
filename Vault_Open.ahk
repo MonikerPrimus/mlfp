@@ -6,17 +6,18 @@ CoordMode "Mouse", "Screen"
 Run "C:\Users\mjkuo\AppData\Local\Programs\Obsidian\Obsidian.exe"
 Run "C:\Users\mjkuo\AppData\Local\Programs\Obsidian\Obsidian.exe"
 
+Sleep 1000
+
 WinActivate("Obsidian",, "- Obsidian ")
 
-Sleep 1000
+Sleep 500
 
 Click 2620, 1190
 
 Sleep 100
 WinWait("Open folder as vault", "", 1, "", "")
-vault_folder := "C:\Users\mjkuo\Documents\MITES_Summer_ML\MLFP\Obsidian_Vaults\Healthcare_2024_Sub_Vaults\"
-vault_name := "acera_surgical__inc_"
+vault_path := "C:\Users\mjkuo\Documents\MITES_Summer_ML\MLFP\Obsidian_Vaults\Healthcare_2024_Sub_Vaults\actelion_pharmaceuticals_us__inc_"
 Sleep 500
-Send vault_folder . vault_name
+Send vault_path
 Sleep 500
 Send "{Tab}{Enter}"
