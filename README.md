@@ -1,1 +1,5 @@
-# mlfp
+A repo for a collaborative project to analyze and visualize medical payment data across the U.S. using Python and open-source tools. The project explores connections between research institutions and funders, transforming raw government data into interactive geospatial insights.
+
+It includes scripts for cleaning and processing data, geocoding medical center addresses into coordinates with multithreading for optimization, and resuming progress after partial completion. Dimensionality reduction and clustering are tested through Jupyter notebooks, uncovering trends in research topics and funding density.
+
+Built with Python libraries like pandas & geocoder and visualized with Kepler.gl, this project focuses on how open data can be reinterpreted to expose real-world funding patterns and disparities across regions.

@@ -1,1 +1,0 @@
-print(" min-jae, more like, min-bae")
